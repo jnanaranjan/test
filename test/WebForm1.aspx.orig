@@ -9,7 +9,11 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    hi jnana conflict asdasdasasas
+<<<<<<< HEAD
+    hi jnana conflict asdasdasasas local
+=======
+    hi jnana conflict asdasdasasas remote
+>>>>>>> baea417d82ae187a13c6fdae763f77fec1964e93
     </div>
     </form>
 </body>
