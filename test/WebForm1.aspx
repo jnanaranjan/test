@@ -13,8 +13,7 @@
         ljlkjljlk
     </div>
        
-        <input type="button" value="test"  />
-        <input type="text" value="test build" />
+        <asp:Button Text="Test"  runat="server" ID="btnText" OnClick="btnText_Click" />
     </form>
 </body>
 </html>

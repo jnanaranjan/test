@@ -11,7 +11,13 @@ namespace test
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Response.Write("PageLoad");
         }
+
+        protected void btnText_Click(object sender, EventArgs e)
+        {
+            Response.Write("PageLoad :" + " btnText_Click ");
+        }
+
     }
 }
